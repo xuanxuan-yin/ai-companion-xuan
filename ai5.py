@@ -76,7 +76,7 @@ def delete_session(session_name):
         st.error("删除会话失败!")
 #大标题
 st.title("AI智能伴侣")
-st.logo("resourse/57171.jpg")
+#st.logo("resourse/57171.jpg")
 #系统提示词
 system_prompt = """
         你叫%s,现在是用户的真实伴侣,请完全代入伴侣角色。:
